@@ -163,6 +163,17 @@ console.log(addFriends(students));
 //=======================================================================
 
 /*// 2 вариант решения:
+const addFriends = students => students.map(st => ({
+    ...st,
+    friends: students
+        .map(s => s.name)
+        .filter(n => n !== st.name)
+}))
+console.log(addFriends(students))*/
+
+//=======================================================================
+
+/*// 3 вариант решения:
 const addFriends = (students) => {
     return students.map(st => ({...st, friend: students.map(s => s.name).filter(n => n !== st.name)}))
 }
@@ -170,7 +181,7 @@ console.log(addFriends(students));*/
 
 //=======================================================================
 
-/*// 3 вариант решения: НЕ РАБОТАЕТ!!!
+/*// 4 вариант решения: НЕ РАБОТАЕТ!!!
 const addFriends = (students) => {
     students.map( st => ({...st, friends: students.reduce((acc, cur) => {
         cur.name !== st.name ? acc.push(cur.name) : null;
@@ -178,12 +189,6 @@ const addFriends = (students) => {
     }, [])}))
 }
 console.log(addFriends(students)) // undefined;*/
-
-//=======================================================================
-
-// 4 вариант решения:
-/*const addFriends = students => students.map(st => ({...st, friends: students.map(s => s.name).filter(n => n !== st.name)}))
-console.log(addFriends(students))*/
 
 //=======================================================================
 

@@ -1,22 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="107c46aa-489b-4b9a-bbb2-ea06b87dd5cd" name="Default Changelist" comment="" />
+    <list default="true" id="107c46aa-489b-4b9a-bbb2-ea06b87dd5cd" name="Default Changelist" comment="1 - 6 lessons">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-1_copy,deep_copy,map~useState/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-1_copy,deep_copy,map~useState/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-2_callBack/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-2_callBack/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-3_Event(Handler,Listener,Subscriber),onChange,onClick,currentTarget,stopPropagation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-3_Event(Handler,Listener,Subscriber),onChange,onClick,currentTarget,stopPropagation/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-4_[todoListID2],Reduse/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-4_[todoListID2],Reduse/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-5_Bubble_sort,sort()/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-5_Bubble_sort,sort()/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/.idea/lesson-6_Exam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/mainForStudents - Copy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/mainForStudents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/мое/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/мое/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/мое/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/мое/.idea/мое.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/мое/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-6_Exam/мое/mainForStudents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JS_Native_Lessons.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-1_copy,deep_copy,map~useState/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-1_copy,deep_copy,map~useState/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-2_callBack/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-2_callBack/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-3_Event(Handler,Listener,Subscriber),onChange,onClick,currentTarget,stopPropagation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-3_Event(Handler,Listener,Subscriber),onChange,onClick,currentTarget,stopPropagation/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-4_[todoListID2],Reduse/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-4_[todoListID2],Reduse/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-5_Bubble_sort,sort()/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-5_Bubble_sort,sort()/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/.idea/lesson-6_Exam.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/mainForStudents - Copy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/mainForStudents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/мое/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/мое/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/мое/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/мое/.idea/мое.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/мое/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6_Exam/мое/mainForStudents.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1q486oAos5wpS7e3GMmGbIQ3JKX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson-7_TDD,Tests" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Front-End\IT-INCUBATOR\JS_Native_Lessons\lesson-7_TDD,Tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Front-End\IT-INCUBATOR\JS_Native_Lessons\lesson-7_TDD,Tests" />
+      <recent name="D:\Front-End\IT-INCUBATOR\JS_Native_Lessons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.check addFriends v.2">
+    <configuration name="calc test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <test-names>
+        <test-name value="calc test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="check addFriends v.2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <test-names>
+        <test-name value="check addFriends v.2" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="check addFriends" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <test-names>
+        <test-name value="check addFriends" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="checked addFriends" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <test-names>
+        <test-name value="checked addFriends" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="tasks.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.check addFriends v.2" />
+        <item itemvalue="Jest.tasks.test.ts" />
+        <item itemvalue="Jest.calc test" />
+        <item itemvalue="Jest.check addFriends" />
+        <item itemvalue="Jest.checked addFriends" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,17 +200,58 @@
       <workItem from="1616366992308" duration="371000" />
       <workItem from="1616367389914" duration="21443000" />
       <workItem from="1616493778147" duration="105000" />
+      <workItem from="1616495321627" duration="423000" />
+      <workItem from="1616529292820" duration="24545000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="-1172" y="238" key="CommitChangelistDialog2" timestamp="1616495485930">
+      <screen x="-1366" y="238" width="1366" height="768" />
+    </state>
+    <state x="-1172" y="238" key="CommitChangelistDialog2/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616495485930" />
+    <state x="-825" y="518" key="Github.ShareDialog" timestamp="1616495565353">
+      <screen x="-1366" y="238" width="1366" height="768" />
+    </state>
+    <state x="-825" y="518" key="Github.ShareDialog/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616495565353" />
+    <state x="-1016" y="326" key="Github.UntrackedFilesDialog" timestamp="1616495602314">
+      <screen x="-1366" y="238" width="1366" height="768" />
+    </state>
+    <state x="-1016" y="326" key="Github.UntrackedFilesDialog/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616495602314" />
+    <state width="1898" height="187" key="GridCell.Tab.0.bottom" timestamp="1616628899131">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1307" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616627719000" />
+    <state width="1898" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616628899131" />
+    <state width="1898" height="187" key="GridCell.Tab.0.center" timestamp="1616628899131">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1307" height="187" key="GridCell.Tab.0.center/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616627718999" />
+    <state width="1898" height="187" key="GridCell.Tab.0.center/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616628899131" />
+    <state width="1898" height="187" key="GridCell.Tab.0.left" timestamp="1616628899131">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1307" height="187" key="GridCell.Tab.0.left/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616627718999" />
+    <state width="1898" height="187" key="GridCell.Tab.0.left/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616628899131" />
+    <state width="1898" height="187" key="GridCell.Tab.0.right" timestamp="1616628899131">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1307" height="187" key="GridCell.Tab.0.right/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616627718999" />
+    <state width="1898" height="187" key="GridCell.Tab.0.right/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616628899131" />
     <state x="-1182" y="253" key="SettingsEditor" timestamp="1616354980833">
       <screen x="-1366" y="238" width="1366" height="768" />
     </state>
     <state x="-1182" y="253" key="SettingsEditor/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616354980833" />
+    <state x="-1078" y="238" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616621141310">
+      <screen x="-1366" y="238" width="1366" height="768" />
+    </state>
+    <state x="-1078" y="238" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616621141310" />
     <state x="-1020" y="327" width="672" height="678" key="search.everywhere.popup" timestamp="1616354973131">
       <screen x="-1366" y="238" width="1366" height="768" />
     </state>
