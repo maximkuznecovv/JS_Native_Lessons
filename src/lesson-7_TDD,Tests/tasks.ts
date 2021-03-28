@@ -1,7 +1,7 @@
 import exp from "constants";
 
 export function sum(a: number, b: number) {
-return a + b
+    return a + b
 }
 export function restParams(...numbers: Array<number>) {
     return numbers.reduce((acc, el) => acc + el)
@@ -28,15 +28,15 @@ export const deepCopyStudent = (st: StudentType) => ({...st, friends: [...st.fri
 
 // 'sum', 'mult', 'div', 'sub'
 export function calc(a: number, b: number, action: string) {
-/*if (action === 'sum') {
-    return a + b
-} else if (action === 'mult') {
-    return a * b
-} else if (action === 'div') {
-    return a / b
-} else if (action === 'sub') {
-    return a - b
-}*/
+    /*if (action === 'sum') {
+        return a + b
+    } else if (action === 'mult') {
+        return a * b
+    } else if (action === 'div') {
+        return a / b
+    } else if (action === 'sub') {
+        return a - b
+    }*/
     switch (action) {
         case "sum":
             return a + b
@@ -57,4 +57,3 @@ export const addFriends = (students: Array<StudentsType>) => students.map(st => 
         .map(s => s.name)
         .filter(n => n !== st.name)
 }))
-

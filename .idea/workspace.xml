@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="107c46aa-489b-4b9a-bbb2-ea06b87dd5cd" name="Default Changelist" comment="" />
+    <list default="true" id="107c46aa-489b-4b9a-bbb2-ea06b87dd5cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lesson-8/tasks.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson-8/tasks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,90 +29,95 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson-7_TDD,Tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lesson-8" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\Front-End\IT-INCUBATOR\JS_Native_Lessons\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Front-End\IT-INCUBATOR\JS_Native_Lessons\lesson-7_TDD,Tests" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Front-End\IT-INCUBATOR\JS_Native_Lessons\src\lesson-8" />
       <recent name="D:\Front-End\IT-INCUBATOR\JS_Native_Lessons\lesson-7_TDD,Tests" />
       <recent name="D:\Front-End\IT-INCUBATOR\JS_Native_Lessons" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Front-End\IT-INCUBATOR\JS_Native_Lessons\lesson-7_TDD,Tests" />
+    </key>
   </component>
-  <component name="RunManager" selected="Jest.check addFriends v.2">
-    <configuration name="calc test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Is Square Greater Than Circle">
+    <configuration name="Is Even Sum Greater" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/lesson-8/tasks.test.ts" />
       <test-names>
-        <test-name value="calc test" />
+        <test-name value="Is Even Sum Greater" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="check addFriends v.2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Is Square Greater Than Circle" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/lesson-8/tasks.test.ts" />
       <test-names>
-        <test-name value="check addFriends v.2" />
+        <test-name value="Is Square Greater Than Circle" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="check addFriends" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="get banknote list" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/lesson-8/tasks.test.ts" />
       <test-names>
-        <test-name value="check addFriends" />
+        <test-name value="get banknote list" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="checked addFriends" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="get sum" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/lesson-8/tasks.test.ts" />
       <test-names>
-        <test-name value="checked addFriends" />
+        <test-name value="get sum" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="tasks.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="tasks.test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/lesson-7_TDD,Tests/tasks.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/lesson-8/tasks.test.ts" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.check addFriends v.2" />
-        <item itemvalue="Jest.tasks.test.ts" />
-        <item itemvalue="Jest.calc test" />
-        <item itemvalue="Jest.check addFriends" />
-        <item itemvalue="Jest.checked addFriends" />
+        <item itemvalue="Jest.Is Square Greater Than Circle" />
+        <item itemvalue="Jest.get sum" />
+        <item itemvalue="Jest.get banknote list" />
+        <item itemvalue="Jest.tasks.test.ts (1)" />
+        <item itemvalue="Jest.Is Even Sum Greater" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +138,10 @@
       <workItem from="1616367389914" duration="21443000" />
       <workItem from="1616493778147" duration="105000" />
       <workItem from="1616495321627" duration="423000" />
-      <workItem from="1616529292820" duration="24873000" />
+      <workItem from="1616529292820" duration="25998000" />
+      <workItem from="1616851525099" duration="519000" />
+      <workItem from="1616852192929" duration="30000" />
+      <workItem from="1616852307833" duration="33053000" />
     </task>
     <task id="LOCAL-00001" summary="add lesson 7">
       <created>1616629231127</created>
@@ -137,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616629231127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add lesson 7">
+      <created>1616629365494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616629365494</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,50 +169,60 @@
     <option name="LAST_COMMIT_MESSAGE" value="add lesson 7" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1616629228917">
+    <state x="333" y="0" width="1391" height="1050" key="CommitChangelistDialog2" timestamp="1616629364655">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1172" y="238" key="CommitChangelistDialog2/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616495485930" />
+    <state x="333" y="0" width="1391" height="1050" key="CommitChangelistDialog2/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616629364655" />
     <state x="273" y="0" key="CommitChangelistDialog2/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616629228917" />
-    <state x="-825" y="518" key="Github.ShareDialog" timestamp="1616495565353">
+    <state x="-825" y="518" key="Github.ShareDialog" timestamp="1616629782970">
       <screen x="-1366" y="238" width="1366" height="768" />
     </state>
-    <state x="-825" y="518" key="Github.ShareDialog/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616495565353" />
+    <state x="-825" y="518" key="Github.ShareDialog/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616629782970" />
     <state x="-1016" y="326" key="Github.UntrackedFilesDialog" timestamp="1616495602314">
       <screen x="-1366" y="238" width="1366" height="768" />
     </state>
     <state x="-1016" y="326" key="Github.UntrackedFilesDialog/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616495602314" />
-    <state width="1898" height="187" key="GridCell.Tab.0.bottom" timestamp="1616629166486">
+    <state width="1880" height="218" key="GridCell.Tab.0.bottom" timestamp="1616942948677">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="645" height="183" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1616865423672" />
     <state width="1307" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616627719000" />
-    <state width="1898" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616629166486" />
-    <state width="1898" height="187" key="GridCell.Tab.0.center" timestamp="1616629166485">
+    <state width="1880" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616942948677" />
+    <state width="1880" height="218" key="GridCell.Tab.0.center" timestamp="1616942948677">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="645" height="183" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1616865423672" />
     <state width="1307" height="187" key="GridCell.Tab.0.center/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616627718999" />
-    <state width="1898" height="187" key="GridCell.Tab.0.center/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616629166485" />
-    <state width="1898" height="187" key="GridCell.Tab.0.left" timestamp="1616629166485">
+    <state width="1880" height="218" key="GridCell.Tab.0.center/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616942948677" />
+    <state width="1880" height="218" key="GridCell.Tab.0.left" timestamp="1616942948677">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="645" height="183" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1616865423672" />
     <state width="1307" height="187" key="GridCell.Tab.0.left/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616627718999" />
-    <state width="1898" height="187" key="GridCell.Tab.0.left/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616629166485" />
-    <state width="1898" height="187" key="GridCell.Tab.0.right" timestamp="1616629166486">
+    <state width="1880" height="218" key="GridCell.Tab.0.left/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616942948677" />
+    <state width="1880" height="218" key="GridCell.Tab.0.right" timestamp="1616942948677">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="645" height="183" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1616865423672" />
     <state width="1307" height="187" key="GridCell.Tab.0.right/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616627718999" />
-    <state width="1898" height="187" key="GridCell.Tab.0.right/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616629166486" />
-    <state x="-1182" y="253" key="SettingsEditor" timestamp="1616354980833">
-      <screen x="-1366" y="238" width="1366" height="768" />
+    <state width="1880" height="218" key="GridCell.Tab.0.right/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616942948677" />
+    <state x="259" y="21" key="SettingsEditor" timestamp="1616851900874">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1182" y="253" key="SettingsEditor/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616354980833" />
+    <state x="259" y="21" key="SettingsEditor/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616851900874" />
+    <state x="-1091" y="333" key="Vcs.Push.Dialog.v2" timestamp="1616629376385">
+      <screen x="-1366" y="238" width="1366" height="768" />
+    </state>
+    <state x="-1091" y="333" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616629376385" />
     <state x="-1078" y="238" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616621141310">
       <screen x="-1366" y="238" width="1366" height="768" />
     </state>
     <state x="-1078" y="238" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616621141310" />
-    <state x="-1020" y="327" width="672" height="678" key="search.everywhere.popup" timestamp="1616354973131">
-      <screen x="-1366" y="238" width="1366" height="768" />
+    <state x="486" y="122" width="945" height="927" key="search.everywhere.popup" timestamp="1616856769793">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1020" y="327" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1366.238.1366.768@-1366.238.1366.768" timestamp="1616354973131" />
+    <state x="486" y="122" width="945" height="927" key="search.everywhere.popup/0.0.1920.1050/-1366.238.1366.768@0.0.1920.1050" timestamp="1616856769793" />
   </component>
 </project>
