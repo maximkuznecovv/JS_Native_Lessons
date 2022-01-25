@@ -105,7 +105,7 @@ const filterAlex = (acc, el) => {
 console.log(studentsR.reduce(filterAlex, []))
 
 console.log(studentsR.reduce((data, st) => {
-        data[st.name] = [st.age, st.scores, st.isMarried]
+        data[st.name] = [st.age, st.scores, st.isMarried] //инициализация свойства значения путем присвоения значения
         return data
     }, {})
 )
