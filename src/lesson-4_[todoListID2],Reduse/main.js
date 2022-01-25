@@ -37,7 +37,8 @@ const obj = { // new object(...)
     [propName]: 26,
 }
 
-// console.log(obj['user name'])
+console.log(obj['user name'])
+console.log(obj[propName])
 
 console.log(tasks[todoListID1])
 console.log(todoList.find(t => t.id === todoListID1))
@@ -58,24 +59,24 @@ console.log(average)
 
 let studentsR = [
     {
-        name: "Bob",
+        name: 'Bob',
         age: 22,
         isMarried: true,
         scores: 85
     },
     {
-        name: "Alex",
+        name: 'Alex',
         age: 21,
         isMarried: true,
         scores: 89
     },
     {
-        name: "Nick",
+        name: 'Nick',
         age: 20,
         isMarried: false,
         scores: 120
-    },{
-        name: "John",
+    }, {
+        name: 'John',
         age: 19,
         isMarried: false,
         scores: 100
@@ -102,3 +103,9 @@ const filterAlex = (acc, el) => {
 }
 
 console.log(studentsR.reduce(filterAlex, []))
+
+console.log(studentsR.reduce((data, st) => {
+        data[st.name] = [st.age, st.scores, st.isMarried]
+        return data
+    }, {})
+)
