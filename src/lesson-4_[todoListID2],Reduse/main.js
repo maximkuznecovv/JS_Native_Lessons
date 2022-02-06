@@ -83,6 +83,7 @@ let studentsR = [
     }
 ];
 
+// Reduce
 console.log(studentsR.reduce((acc, el) => el.scores + acc, 0))
 console.log(numbers.reduce((acc, el) => el > acc ? acc : el))
 
@@ -92,20 +93,46 @@ const findAlex = (acc, el) => {
     }
     return acc
 }
-
 console.log(studentsR.reduce(findAlex, null))
 
+// Самописный filter
 const filterAlex = (acc, el) => {
     if (el.name === 'Alex') {
         acc.push(el)
     }
     return acc
 }
-
 console.log(studentsR.reduce(filterAlex, []))
 
-console.log(studentsR.reduce((data, st) => {
-        data[st.name] = [st.age, st.scores, st.isMarried] //инициализация свойства значения путем присвоения значения
-        return data
+console.log(studentsR.reduce((newArr, el) => {
+    if (!el.isMarried) {
+        newArr.push(el)
+        // return newArr
+    }
+    return newArr
+}, []))
+
+// Глубокая копия обьекта
+console.log(studentsR.reduce((newArr, el) => {
+    newArr.push({...el})
+    return newArr
+}, []))
+
+/* Два нижних примера формируют из studentsR в data с помощью reduce и цикла for
+let data = { //data формируется из reduce
+    Alex: [21, 89, true],
+    Bob: [22, 85, true],
+    John: [19, 100, false],
+    Nick: [20, 120, false],
+}*/
+console.log(studentsR.reduce((obj, st) => {
+        obj[st.name] = [st.age, st.scores, st.isMarried] //инициализация свойства значения путем присвоения значения
+        return obj
     }, {})
 )
+
+let data = {}
+for (let i = 0; i < studentsR.length; i++) {
+    data[studentsR[i].name] = [studentsR[i].age, studentsR[i].scores, studentsR[i].isMarried] //инициализация свойства значения путем присвоения значения
+}
+console.log(data)

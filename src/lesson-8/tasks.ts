@@ -44,16 +44,17 @@ export function getTriangleType(a: number, b: number, c: number): string {
 //         .reduce((acc, el) => acc + Number(el), 0) // +el
 // }
 
-// // 2 варик
-// export function getSum(a: number) {
-//     let temp = a.toString()
-//     let sum = 0
-//     for (let i = 0; i < temp.length; i++) {
-//         const res = temp.charAt(i)
-//         sum += +res
-//     }
-//     return sum
-// }
+// 2 варик
+export function getSum(a: number) {
+    let temp = a.toString()
+    let sum = 0
+    for (let i = 0; i < temp.length; i++) {
+        // const res = temp.charAt(i) //charAt считается устаревшим
+        const res = temp[i]
+        sum += +res
+    }
+    return sum
+}
 
 // // 3 варик
 // export function getSum(number: number) {
@@ -65,7 +66,7 @@ export function getTriangleType(a: number, b: number, c: number): string {
 // }
 
 // 4 варик
-export const getSum = (arg: number) => eval(arg.toString().replace(/(\d)(?=\d)/g, "$1+"))
+// export const getSum = (arg: number) => eval(arg.toString().replace(/(\d)(?=\d)/g, "$1+"))
 
 
 // 4, Функция принимает isEvenIndexSumGreater параметром массив чисел.
