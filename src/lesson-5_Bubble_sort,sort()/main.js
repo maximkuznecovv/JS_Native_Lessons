@@ -10,7 +10,6 @@ for (let j = 0; j < array.length; j++) {
         if (array[i] > array[i + 1]) {
             sort = false; // todo !!! НУЖНО СТАВИТЬ ТОЧКУ С ЗАПЯТОЙ, ЕСЛИ С НОВОЙ СТРОЧКИ НАЧИНАЕТСЯ ЛИТЕРАЛ МАССИВА !!! Вопрос для влада. Почему интерпритатор соединяет обе сторчки если не ставить запятую
             [array[i], array[i + 1]] = [array[i + 1], array[i]]
-
             // let temp = array[i + 1]
             // array[i + 1] = array[i]
             // array[i] = temp
@@ -34,7 +33,7 @@ const mySort = (arr) => {
     console.log(resultArr)
 }
 mySort(array)
-
+console.log(array)
 //------------------------------------------------------------
 const array1 = [...originalArray]
 let newArray = []
@@ -50,7 +49,7 @@ const sort = (array) => {
     }
     return (newArray)
 }
-sort(array1)
+console.log(sort(array1))
 console.log(newArray)
 
 //==================================================================================================
@@ -116,7 +115,7 @@ let students = [
         scores: 321
     },
     {
-        name: 'Nick',
+        name: 'nick',
         age: 20,
         isMarried: false,
         scores: 120
@@ -125,9 +124,9 @@ let students = [
 
 //------------------------------------------------------------
 
-console.log(students.sort((a, b) => a.scores - b.scores))
+console.log([...students].sort((a, b) => a.scores - b.scores))
 console.log([...students].sort((a, b) => a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1))
-console.log([...students].sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1))
+console.log([...students].sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1))
 console.log([...students].sort((a, b) => a.name < b.name ? -1 : 1))
 console.log([...students].sort((a, b) => a.age - b.age))
 console.log([...students].sort((a) => !a.isMarried ? -1 : 1))

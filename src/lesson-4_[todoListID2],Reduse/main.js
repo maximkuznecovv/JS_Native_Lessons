@@ -136,3 +136,134 @@ for (let i = 0; i < studentsR.length; i++) {
     data[studentsR[i].name] = [studentsR[i].age, studentsR[i].scores, studentsR[i].isMarried] //инициализация свойства значения путем присвоения значения
 }
 console.log(data)
+
+// Напишите алгоритм, который берет массив и перемещает все нули в конец,
+// сохраняя порядок других элементов.
+let moveZeros = (arr) => arr.reduceRight((acc, val) => val === 0 ? [...acc, val] : [val, ...acc], [])
+
+console.log(moveZeros([false, 1, 0, 1, 2, 0, 1, 3, 'a'])) // return [false, 1, 1, 2, 1, 3, 'a', 0, 0]
+
+// Разворачивание массивов
+let flattened = [[0, 1], [2, 3], [4, 5, 6]].reduce((a, b) => a.concat(b)) // [0, 1, 2, 3, 4, 5, 6]
+let flattened1 = [[0, 1], [2, 3], [4, 5, 6]].reduce((a, b) => [...a, ...b]) // [0, 1, 2, 3, 4, 5, 6]
+console.log(flattened, flattened1) // вместо двух console.log
+
+// Если дан двумерный массив целых чисел, верните выровненную версию массива
+//  со всеми целыми числами в отсортированном (возрастающем) порядке.
+// Пример: [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]],
+// ваша функция должна вернуть [1, 2, 3, 4, 5, 6, 7, 8, 9].
+const flattenAndSort = (array) => {
+    return array
+        .reduce((result, current) => [...result, ...current], [])
+        .sort((a, b) => a - b)
+}
+console.log(flattenAndSort([[4, 6, 5], [3, 2, 1], [], [9, 7, 8]])) // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+// Полифил для ForEach
+let arr = [10, 11, 12, 13, 14, 15, 16, 17, 18]
+
+Array.prototype.forEach2 = function (callback) {
+    let arr = this
+    for (let i = 0; i < arr.length; i++) {
+        callback(arr[i], i, arr)
+    }
+}
+
+arr.forEach2((item, index, array) => {
+    console.log({item, index})
+})
+// {item: 10, index: 0}
+// {item: 11, index: 1}...
+
+// Полифил для Reduce
+Array.prototype.reduce2 = function (f, result) {
+    let i = 0
+
+    if (arguments.length < 2) {
+        i = 1
+        result = this[0]
+    }
+    for (; i < this.length; i++) {
+        result = f(result, this[i], i, this)
+    }
+    return result
+}
+
+let a = [1, 2, 3, 4]
+
+function add(a, b) {
+    return a + b;
+}
+
+function concatenate(a, b) {
+    return a.concat(b);
+}
+
+console.log(a.reduce(add), a.reduce2(add)) // 10 10
+console.log(a.reduce(add, 10), a.reduce2(add, 10)) // 20 20
+console.log(a.reduce(concatenate, 'x'), a.reduce2(concatenate, 'x')) // x1234 x1234
+
+// Сумма чисел
+// ...Циклом for
+let b = [1, 2, 3, 4]
+let sum = 0
+for (let i = 0; i < b.length; i++) {
+    sum += b[i];
+}
+// ...редюсом
+let c = b.reduce((a, b) => {
+    return a + b
+}, 0)
+console.log(sum, c) // 10 10
+// Максимальное значение
+// ...Циклом for
+let d = [3, 1, 2, 5, 1, 22, 4]
+
+let max = d[0]
+for (let i = 0; i < d.length; i++) {
+    if (d[i] > max) {
+        max = d[i]
+    }
+}
+// ...редюсом
+console.log(max, d.reduce((a, b) => a < b ? b : a, d[0])) // 22 22
+
+// Индекс максимального элемента
+// ...Циклом for
+max = d[0]
+let index = 0
+for (let i = 0; i < d.length; i++) {
+    if (d[i] > max) {
+        max = d[i]
+        index = i
+    }
+}
+console.log(index)
+// ...редюсом
+console.log(d.reduce((prev, item, index) => item > prev[1] ? [index, item] : prev, [0, d[0]]))
+
+// Найти сумму положительных чисел
+const sumPlus = [-1, -3, 4, -5, 7, -6, 2]
+console.log(sumPlus.reduce((acc, item) => {
+    if (item > 0) {
+        acc += item
+    }
+    return acc
+}, 0))
+
+// Переиндексация массива
+const myArr = [
+    {id: 55, city: 'arc'},
+    {id: 75, city: 'rca'},
+    {id: 175, city: 'bra'},
+]
+console.log(myArr.reduce((acc, item) => { // Нужно вернуть [55, 75, 175]
+    acc.push(item.id)
+    return acc
+}, []))
+
+// Аналог reduce (схематичный)
+// let res = '';
+// for () {
+//     res +=
+// }
