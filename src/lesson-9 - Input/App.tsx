@@ -1,6 +1,8 @@
 import {useState} from "react"
 import "./App.css"
 import {FullInput} from "./Components/FullInput";
+import {Input} from "./Components/Input";
+import {Button} from "./Components/Button";
 
 export const App = () => {
     let [message, setMesaage] = useState([
@@ -9,8 +11,16 @@ export const App = () => {
         {message: "message3"},
     ])
 
+    const [title, setTitle] = useState("")
+    console.log('Input & Button ' + title)
+
     const addMessage = (title: string) => {
         setMesaage([{message: title}, ...message])
+    }
+
+    const callBackButtonHundler = () => {
+        addMessage(title)
+        setTitle('')
     }
     return (
         <div className={"App"}>
@@ -19,7 +29,9 @@ export const App = () => {
             {/*    <button>+</button>*/}
             {/*</div>*/}
 
-            <FullInput callBack={addMessage}/>
+            {/*<FullInput callBack={addMessage}/>*/}
+            <Input title={title} setTitle={setTitle} callBack={callBackButtonHundler}/>
+            <Button name={"+"} callBack={callBackButtonHundler}/>
             {message.map((el, index) => {
                 return (
                     <div key={index}>{el.message}</div>

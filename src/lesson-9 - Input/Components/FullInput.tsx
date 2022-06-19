@@ -6,13 +6,13 @@ type FullInputPropsType = {
 
 export const FullInput = ({callBack}:FullInputPropsType) => {
     const [title, setTitle] = useState("")
+    console.log('FullInput: ' + title)
 
     const onChangeInputHandler = (e: ChangeEvent<HTMLInputElement>) => {
         setTitle(e.currentTarget.value)
     }
 
     const onClickButtonHandler = () => {
-
         callBack(title)
         setTitle("")
     }
