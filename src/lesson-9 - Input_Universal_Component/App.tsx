@@ -1,6 +1,6 @@
-import {useState} from "react"
+import React, {useState} from "react"
 import "./App.css"
-import {FullInput} from "./Components/FullInput";
+import {FullInputUseRef} from "./Components/FullInput(UseRef)";
 import {Input} from "./Components/Input";
 import {Button} from "./Components/Button";
 
@@ -29,9 +29,9 @@ export const App = () => {
             {/*    <button>+</button>*/}
             {/*</div>*/}
 
-            {/*<FullInput callBack={addMessage}/>*/}
-            <Input title={title} setTitle={setTitle} callBack={callBackButtonHundler}/>
-            <Button name={"+"} callBack={callBackButtonHundler}/>
+            <FullInputUseRef callBack={addMessage}/>
+            {/*<Input title={title} setTitle={setTitle} callBack={callBackButtonHundler}/>*/}
+            {/*<Button name={"+"} callBack={callBackButtonHundler}/>*/}
             {message.map((el, index) => {
                 return (
                     <div key={index}>{el.message}</div>

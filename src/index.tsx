@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { App } from './lesson-10_ModalWindow/App';
+import {App} from "./lesson-9 - Input_Universal_Component/App";
+// import { App } from './lesson-10_ModalWindow/App';
 
 ReactDOM.render(
   <React.StrictMode>
